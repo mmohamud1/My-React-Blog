@@ -11,7 +11,7 @@ const PostList = () => {
         getPosts();
     }, [])
 
-    console.log(blogPosts);
+    //console.log(blogPosts);
 
     if (loading) {
         return <Spinner />;
