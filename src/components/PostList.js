@@ -9,6 +9,7 @@ const PostList = () => {
 
     useEffect(() => {
         getPosts();
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 
     //console.log(blogPosts);

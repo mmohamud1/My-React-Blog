@@ -14,6 +14,7 @@ const Post = () => {
 
     useEffect(() => {
         getPostById(postId);
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     //console.log(postId)
