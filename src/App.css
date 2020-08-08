@@ -7,7 +7,7 @@
 body {
   line-height: 1.5;
   font-family: Arial, Helvetica, sans-serif;
-  
+  background-color: white;
 }
 
 a {
@@ -15,7 +15,7 @@ a {
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: blueviolet underline;
 }
 
 .container {
@@ -33,7 +33,7 @@ a:hover {
   width: 100%;
   opacity: 0.9;
   background-color: blueviolet;
-  color: azure;
+  color: #fafafa;
 }
 
 .navbar ul {
@@ -65,7 +65,7 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: azure;
+  color: #fafafa;
   font-size: 52px;
 }
 
@@ -90,6 +90,7 @@ a:hover {
   border-radius: 5px;
   border: 1px solid rgba(0, 0, 0, 0.125);
   margin-bottom: 10px;
+  background-color: #fafafa;
 }
 
 .card-image {
