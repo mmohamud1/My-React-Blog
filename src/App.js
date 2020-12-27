@@ -2,14 +2,14 @@ import React from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
-import Post from './pages/Post'
+import Post from './pages/Post';
 import BlogProvider from './context/BlogProvider';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 const App = () => {
   return (
     <BlogProvider>
-      <div className="App">
+      <div className='App'>
         <Router>
           <Navbar />
           <Switch>
@@ -20,6 +20,6 @@ const App = () => {
       </div>
     </BlogProvider>
   );
-}
+};
 
 export default App;
